@@ -1,0 +1,315 @@
+ body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+       
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        
+        background: cyan;
+        
+        /* Center slide text vertically */
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    }
+     .swiper-slide:nth-child(1){
+        background: url(../images/bg7.jpg) no-repeat center center;
+        background-size: cover;
+        -ms-flex-direction:column;
+            flex-direction:column;
+        -ms-flex-pack:center;
+            justify-content:center;
+        -ms-flex-align:center;
+            align-items:center;
+        color:#fff;
+        font-size:30px;
+        z-index: 100;
+     }
+     .swiper-slide:nth-of-type(2){
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack:center;
+            justify-content:center;
+        -ms-flex-align:center;
+            align-items:center;
+        background: url(../images/2.jpg) no-repeat center center;
+        background-size: cover;
+     }
+      .swiper-slide:nth-child(2)>.anis{
+        color: #E02C49;
+        width: 100%;
+        height: 10%;
+        margin:0;
+        -ms-flex-direction:column;
+            flex-direction:column;
+     
+        padding:0px;
+        
+         
+
+     }
+    
+
+.anis {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: buffer 6s linear infinite;
+  animation: buffer 6s linear infinite;
+  color: #E02C49; }
+
+.ani1 {
+  padding: 5px;
+  border: 1px solid #CCCCCC; }
+
+@-webkit-keyframes buffer {
+  from {
+    -webkit-transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(1.5, 1.5); } 
+   to {
+    transform: scale(1, 1); } } 
+   
+<<<<<<< HEAD
+
+@keyframes buffer {
+  from {
+    -webkit-transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(1.5, 1.5); } 
+   to {
+    transform: scale(1, 1); } } 
+=======
+    .anis{
+        
+        width:100%;
+        height:100%;
+        animation: buffer 3s linear infinite;
+        color: #E02C49;
+     }
+     @keyframes buffer{
+        from{transform: scale(0.5,0.5);}
+       
+        to{transform: scale(1.5,1.5);}
+    }
+
+
+     .swiper-slide:nth-child(3){
+        position:relative;
+        background: url(../images/4.jpg) no-repeat center center;
+        background-size: cover;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+     }
+      .box img{
+        width: 50%;
+       
+      }  
+>>>>>>> origin/master
+
+
+.swiper-slide:nth-child(3){
+    position:relative;
+    background: url(../images/4.jpg) no-repeat center center;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;    
+ }
+ 
+
+<<<<<<< HEAD
+.box{
+
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: space-around;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.box img{
+    display: inline-block;
+    width: 50%; 
+
+}
+
+ #enter{
+    width: 30%;
+    height: 30px;
+    background: #FA692A;
+    color: #fff;
+    border: 0;
+    border-radius: 10%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+#preload{
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+#preload canvas{
+    display: -ms-flexbox;
+    display: flex;
+}
+.flywrap{
+    width: 100%;
+    height: 40%; 
+    position:relative;
+    perspective: 700px;
+        
+}
+.fly{
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    position: relative;
+    transform-style:preserve-3d;
+     -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+    
+}
+.fly p{
+    width: 8px;
+    border:1px solid #DDA0DD;
+    border-top: 0;
+    border-bottom: 0;
+    height: 200px;
+    background: #fff;
+    position:absolute;
+    left: 15px; 
+    top:-10px;
+    -webkit-animation: flymove 5s linear infinite;
+     -moz-animation: flymove 5s linear infinite;
+     -ms-animation: flymove 5s linear infinite;
+    animation:flymove 5s linear infinite;
+    transform-origin:100% 0;
+}   
+  
+@-webkit-keyframes flymove {
+  0% {
+    -webkit-transform: rotateX(0deg); }
+  100% {
+    -webkit-transform: rotateX(360deg); } }
+
+@-moz-keyframes flymove {
+  0% {
+    -moz-transform: rotateX(0deg); }
+  100% {
+    -moz-transform: rotateX(360deg); } }
+
+@-ms-keyframes flymove {
+  0% {
+    -ms-transform: rotateX(0deg); }
+  100% {
+    -ms-transform: rotateX(360deg); } }
+
+@keyframes flymove {
+  0% {
+    transform: rotateX(0deg); }
+  100% {
+    transform: rotateX(360deg); } }
+=======
+     #enter{
+        position:absolute;
+        left: 60%;     
+        width:30%;
+        height:5%;
+        background: #FA692A;
+        color: #fff;
+        border:0;
+        border-radius: 10%;
+        font-size: 12px;
+    
+
+     }
+    .box{
+        position: absolute;
+         margin-bottom: 20px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+        -ms-flex-align: center;
+            align-items: center;
+    }
+    .box img{
+        display: inline-block; 
+
+    }
+
+    .flywrap{
+        width: 100%;
+        height: 40%;
+      
+        position:relative;
+        perspective: 700px;
+            
+    }
+    .fly{
+        width: 100%;
+        height: 10px;
+        background: #fff;
+        position: relative;
+        transform-style: preserve-3d;
+        
+    }
+    .fly p{
+        width: 8px;
+        border:1px solid #DDA0DD;
+        border-top: 0;
+        border-bottom: 0;
+        height: 200px;
+        background: #fff;
+        position:absolute;
+        left: 15px;
+        top:-10px;
+        animation: mMove 5s linear infinite;
+        transform-origin:100% 0 ;
+    }
+    
+    @keyframes mMove{
+        from{transform: rotateX(0);}
+        to{transform: rotateX(360deg);}
+    }
+            
+>>>>>>> origin/master

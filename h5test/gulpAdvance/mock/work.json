@@ -1,0 +1,19 @@
+﻿[
+	{
+<<<<<<< HEAD
+		"img":"images/1-work.gif",
+		"category":"网址：http://www.keede.com/",
+=======
+		"category":"私营企业",
+>>>>>>> origin/master
+		"name":"可得眼镜网做前端开发1年",
+		"url":"http://www.eoner.com/",
+		"image":"images/eoner.png",
+		"time":"2008年-2010年",
+		"posts":"技术副总",
+		"reportto":"总经理",
+		"peoples":"30",
+		"projects":"商企通视讯服务平台等"
+	}
+	
+]

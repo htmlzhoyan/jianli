@@ -1,0 +1,34 @@
+[
+	{
+<<<<<<< HEAD
+		"img":"images/1-sport.png",		
+=======
+		"category":"规范",
+>>>>>>> origin/master
+		"name":"篮球",
+		"time":"1年",
+		"level":"了解"
+	},
+	{
+<<<<<<< HEAD
+		"img":"images/2-sport.png",		
+=======
+		"category":"框架",
+>>>>>>> origin/master
+		"name":"乒乓球",
+		"time":"乒乓球",
+		"level":"熟悉"
+	},
+	{
+<<<<<<< HEAD
+		"img":"images/3-sport.png",		
+		"name":"敲代码",
+=======
+		"category":"框架",
+		"name":"游泳",
+>>>>>>> origin/master
+		"time":"2年",
+		"level":"熟悉"
+	}
+
+]
