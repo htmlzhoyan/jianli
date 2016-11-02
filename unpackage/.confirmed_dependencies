@@ -1,0 +1,33 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"images/2.jpg",
+			"images/my.png",
+			"images/work.gif",
+			"images/bg7.jpg",
+			"css/iconfont.woff",
+			"js/index.js",
+			"images/4.jpg",
+			"images/3-project.jpg",
+			"images/3-skill.jpg",
+			"images/1-project.jpg",
+			"images/6-skill.jpg",
+			"images/5-skill.jpg",
+			"images/2-skill.jpg",
+			"images/4-skill.jpg",
+			"images/1-skill.jpg",
+			"images/2-project.jpg",
+			"images/3-my.jpg",
+			"images/5-my.jpg",
+			"images/3-sport.png",
+			"images/4-my.jpg",
+			"images/6-my.jpg",
+			"images/2-sport.png",
+			"images/1-work.gif",
+			"images/2-my.jpg",
+			"images/1-sport.png",
+			"images/1-my.jpg"
+		]
+	}
+}
